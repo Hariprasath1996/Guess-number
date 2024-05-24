@@ -6,13 +6,15 @@
     margin: 0px;
 }
 body{
+    
     width: 100vw;
     height: 100vh;
     background-color: midnightblue;
-    color: white;
+    color: rgb(10, 10, 10);
 }
 .Box{
-    width: 100%;
+    background-color: #ffffff;
+    width: 35%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -21,4 +23,30 @@ body{
     gap: 2rem;
     position: relative;
     top: 20rem;
+    left: 37rem;
+    padding: 5rem;
+    border: solid black 10px;
+    border-radius: 1rem;
 }
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(250, 6, 6);
+    font: bold;
+}
+.result{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
+.score{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold;
+}
+.btn{
+    width: 5rem;
+    height: auto;
+    padding: .5rem;
+    background-color: black;
+    color: rgb(247, 231, 231);
+    border: solid #e40808 2px;
+}
+

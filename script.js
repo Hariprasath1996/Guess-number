@@ -10,15 +10,16 @@ function update(){
     let enteredNumber = guessNumber.value
     if(randomNumber==enteredNumber){
         console.log("correct");
-        result.textContent = "Result : "+"you are correct"
-    
-
+        result.textContent = "RESULT : "+"YOU ARE CORRECT"
+        result.style.color = "rgb(6, 250, 47)"
+        score.style.color = "rgb(6, 250, 47)"
     }
     else{
         totalScore=totalScore-1
-        score.textContent="Your score: "+totalScore
-        result.textContent = "Result : "+"you are wrong"
-        
-    }
+        score.textContent="YOUR SCORE: "+totalScore
+        result.textContent = "RESULT : "+"YOU ARE WRONG"
+        result.style.color = " rgb(250, 6, 6)"
+        score.style.color = " rgb(250, 6, 6)"
 
+    }
 }
