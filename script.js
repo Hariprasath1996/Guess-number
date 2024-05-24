@@ -10,14 +10,14 @@ function update(){
     let enteredNumber = guessNumber.value
     if(randomNumber==enteredNumber){
         console.log("correct");
-        result.textContent = "you are correct"
+        result.textContent = "Result : "+"you are correct"
     
 
     }
     else{
         totalScore=totalScore-1
-        score.textContent="score: "+totalScore
-        result.textContent = "you are wrong"
+        score.textContent="Your score: "+totalScore
+        result.textContent = "Result : "+"you are wrong"
         
     }
 
