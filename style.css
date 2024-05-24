@@ -9,7 +9,7 @@ body{
     
     width: 100vw;
     height: 100vh;
-    background-color: midnightblue;
+    background-color: cornflowerblue;
     color: rgb(10, 10, 10);
 }
 .Box{
@@ -25,7 +25,7 @@ body{
     top: 20rem;
     left: 37rem;
     padding: 5rem;
-    border: solid black 10px;
+    border: solid black 5px;
     border-radius: 1rem;
 }
 #heading{
@@ -42,11 +42,13 @@ body{
     font: bold;
 }
 .btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 5rem;
     height: auto;
     padding: .5rem;
     background-color: black;
     color: rgb(247, 231, 231);
     border: solid #e40808 2px;
+    cursor: pointer;
 }
 
