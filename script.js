@@ -1,7 +1,24 @@
 // select input tag  and para tag 
 let guessNumber=document.getElementById("guessNumber")
-let result = document.getElementById("score")
+let result = document.getElementById("result")
+let score = document.getElementById("score")
 // create randomNumber variable  (its created for which number are you typing in input tag)
-let randomNumber = math.floor(math.random()*10)+1
+let randomNumber = Math.floor(Math.random()*10)+1
+let totalScore=10;
 
+function update(){
+    let enteredNumber = guessNumber.value
+    if(randomNumber==enteredNumber){
+        console.log("correct");
+        result.textContent = "you are correct"
+    
 
+    }
+    else{
+        totalScore=totalScore-1
+        score.textContent="score: "+totalScore
+        result.textContent = "you are wrong"
+        
+    }
+
+}
